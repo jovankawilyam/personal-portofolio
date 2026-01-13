@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+/* Tailwind v4 entry */
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
 /* CSS Document */
  
 * {

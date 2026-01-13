@@ -6,6 +6,7 @@ import { useFadeIn } from "./hooks/useFadeIn";
 import { useContactForm } from "./hooks/useContactForm";
 import Image from "next/image";
 
+
 export default function PortfolioClient() {
   useNeuralBackground();
   useNavbar();
@@ -16,13 +17,9 @@ export default function PortfolioClient() {
     <>
       <canvas id="neural-bg"></canvas>
 
-      {/* ==== NAVBAR ==== */}
       <nav id="navbar">
         <div className="nav-container">
-          <a href="#home" className="logo-container">
-            {/* SVG LOGO (tidak diubah) */}
-            {/* … SVG kamu tempel di sini PERSIS */}
-          </a>
+          <a href="#home" className="logo-container"></a>
 
           <div className="mobile-menu-toggle" id="mobile-toggle">
             <span></span>
@@ -71,7 +68,7 @@ export default function PortfolioClient() {
                 <h3>Hello Im Jovanka Wilyam</h3>
                 <p style={{fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '20px'}}>
                     Hi! I&apos;m Jovanka Wilyam Muzaki, an active Information Systems student at Institut Bisnis dan Informatika Kesatuan (IBIK) Bogor.
-                    I&apos;m passionate about exploring the world of Data Science and Web Development, 
+                    I&apos;m passionate about exploring the world of Web Development and Data Science, 
                     combining analytical thinking with creativity to build meaningful digital solutions.
                 </p>
                 <p style={{fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--text-secondary)'}}>
