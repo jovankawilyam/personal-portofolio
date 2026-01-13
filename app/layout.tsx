@@ -1,9 +1,12 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Portfolio",
+  title: "Portfolio Jovanka",
   description:
     "Portfolio of Jovanka Wilyam Muzaki — Frontend Developer, Data Analyst, and Creative Leader from IBIK Bogor.",
+  icons: {
+    icon: "/image/logo.png",
+  },
 };
 
 export default function RootLayout({
@@ -19,10 +22,6 @@ export default function RootLayout({
         <link
           href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Exo+2:wght@300;400;500;600;700&family=Audiowide&display=swap"
           rel="stylesheet"
-        />
-        <link
-          rel="icon"
-          href="/image/WhatsApp Image 2025-10-27 at 09.31.13.jpeg"
         />
       </head>
       <body>{children}</body>
