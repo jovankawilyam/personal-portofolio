@@ -63,7 +63,7 @@ export default function PortfolioClient() {
             <div className="about-image">
                 <div className="profile-img-wrapper">
                     <div className="profile-img">
-        <span><img className="image" src="image/ohmyjow_2-removebg-preview.png" alt="" /></span>
+        <span><img className="image" src="image/profile.png" alt="" /></span>
                     </div>
                 </div>
             </div>
