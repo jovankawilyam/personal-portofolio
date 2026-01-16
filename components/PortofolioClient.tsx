@@ -80,7 +80,7 @@ export default function PortfolioClient() {
                 <p>
                     I love taking on challenges that help me grow — whether it&apos;s solving data-driven problems, creating user-friendly interfaces, or developing community projects that make an impact.
                 </p>
-                <a href="CV (Curriculum Vitae)_Jovanka Wilyam_Kab.Bogor.pdf" className="neural-btn" download>Download CV</a>
+                <a href="/cv.pdf" download="CV (Curriculum Vitae)_Jovanka Wilyam_Kab.Bogor.pdf" className="neural-btn" >Download CV </a>
 
                 <div className="about-stats">
                     <div className="stat-card">
