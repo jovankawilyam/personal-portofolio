@@ -80,7 +80,7 @@ export default function PortfolioClient() {
                 <p>
                     I love taking on challenges that help me grow — whether it&apos;s solving data-driven problems, creating user-friendly interfaces, or developing community projects that make an impact.
                 </p>
-                <a href="CV ATS JovankaWilyam.pdf" className="neural-btn" download>Download CV</a>
+                <a href="CV (Curriculum Vitae)_Jovanka Wilyam_Kab.Bogor.pdf" className="neural-btn" download>Download CV</a>
 
                 <div className="about-stats">
                     <div className="stat-card">
@@ -103,24 +103,26 @@ export default function PortfolioClient() {
     <section id="experience" className="fade-in">
   <h2 className="section-title">EXPERIENCE</h2>
   <div className="glass-card">
+    <a href="https://www.instagram.com/p/DHYEELXx9pc/?igsh=emt5Z2kzdDI4bTV2">
     <h3 style={{color: 'var(--primary)'}}>Head of Human Resource Development</h3>
     <p style={{color: 'var(--text-secondary)'}}>
       <strong>Himpunan Mahasiswa Sistem Informasi (2025 – Sekarang)</strong><br/>
-      Leading HR programs to improve student engagement and skill development within the organization.
-    </p>
+      Pemberdayaan Sumber Daya Manusia (PSDM) is the driving force in empowering student and community resources, 
+      which includes the student affairs division and the community division, so that skilled students and communities are created.
+    </p></a>
   </div>
 
   <div className="glass-card">
     <h3 style={{color: 'var(--secondary)'}}>Data Science Bootcamp – Data Analyst</h3>
     <p style={{color: 'var(--text-secondary)'}}>
-      Analyzed datasets using Power BI to identify transaction patterns and present data-driven insights.
+      Analyzed datasets using Python to identify transaction patterns and present data-driven insights.
     </p>
   </div>
 
   <div className="glass-card">
-    <h3 style={{color: 'var(--accent)'}}>Website Project – Front-End Developer</h3>
+    <h3 style={{color: 'var(--accent)'}}>Website Jual Beli Akun PUBG – Front-End</h3>
     <p style={{color: 'var(--text-secondary)'}}>
-      Built a responsive website for an online marketplace using HTML, CSS, JavaScript, TypeScript, Laravel.
+      Built a responsive website for an online marketplace using HTML, CSS, JavaScript, Laravel.
     </p>
     
   </div>
@@ -304,6 +306,12 @@ export default function PortfolioClient() {
                              <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7zm4.75-.88a1.13 1.13 0 1 1-2.26 0a1.13 1.13 0 0 1 2.26 0z"/>
                         </svg>
                     </a>
+                    <a href="https://wa.me/6281911883609" target="_blank" aria-label="Whatsapp">
+                         <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                             <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7zm4.75-.88a1.13 1.13 0 1 1-2.26 0a1.13 1.13 0 0 1 2.26 0z"/>
+                        </svg>
+                    </a>
+
 
                 </div>
             </div>
