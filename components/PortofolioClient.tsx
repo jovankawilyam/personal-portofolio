@@ -5,6 +5,19 @@ import { useNavbar } from "./hooks/useNavbar";
 import { useFadeIn } from "./hooks/useFadeIn";
 import { useContactForm } from "./hooks/useContactForm";
 import Image from "next/image";
+import LogoLoop from './LogoLoop';
+import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiHtml5, SiLaravel } from 'react-icons/si';
+
+const techLogos = [
+  { node: <SiReact />, title: "React", href: "https://react.dev" },
+  { node: <SiNextdotjs />, title: "Next.js", href: "https://nextjs.org" },
+  { node: <SiTypescript />, title: "TypeScript", href: "https://www.typescriptlang.org" },
+  { node: <SiTailwindcss />, title: "Tailwind CSS", href: "https://tailwindcss.com" },
+  { node: <SiHtml5 />, title: "HTML5", href: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+  { node: <SiLaravel />, title: "Laravel", href: "https://laravel.com" },
+];
+
+
 
 
 export default function PortfolioClient() {
@@ -219,27 +232,22 @@ export default function PortfolioClient() {
 <section id="skills">
   <h2 className="section-title">SKILLS</h2>
 
-  <div className="skills-list" >
-    <div className="skill-bar"><span className="skill-name">HTML</span></div>
-    <div className="skill-bar"><span className="skill-name">CSS</span></div>
-    <div className="skill-bar"><span className="skill-name">JavaScript</span></div>
-    <div className="skill-bar"><span className="skill-name">TypeScript</span></div>
-    <div className="skill-bar"><span className="skill-name">React</span></div>
-    <div className="skill-bar"><span className="skill-name">Laravel</span></div>
-    <div className="skill-bar"><span className="skill-name">Power BI</span></div>
-    <div className="skill-bar"><span className="skill-name">Tableau</span></div>
 
-    {/* DUPLIKAT */}
-    <div className="skill-bar"><span className="skill-name">HTML</span></div>
-    <div className="skill-bar"><span className="skill-name">CSS</span></div>
-    <div className="skill-bar"><span className="skill-name">JavaScript</span></div>
-    <div className="skill-bar"><span className="skill-name">TypeScript</span></div>
-    <div className="skill-bar"><span className="skill-name">React</span></div>
-    <div className="skill-bar"><span className="skill-name">Laravel</span></div>
-    <div className="skill-bar"><span className="skill-name">Power BI</span></div>
-    <div className="skill-bar"><span className="skill-name">Tableau</span></div>
-  </div>
 </section>
+<div style={{ height: '200px', position: 'relative', overflow: 'hidden'}}>
+      {/* Basic horizontal loop */}
+      <LogoLoop
+        logos={techLogos}
+        speed={100}
+        direction="left"
+        logoHeight={60}
+        gap={60}
+        hoverSpeed={0}
+        scaleOnHover
+        ariaLabel="Technology partners"
+      />
+      
+    </div>
 
 
 
