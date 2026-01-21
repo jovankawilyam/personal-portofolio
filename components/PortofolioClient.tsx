@@ -1,5 +1,4 @@
 'use client';
-// @ts-nocheck
 
 import { useNeuralBackground } from "./hooks/useNeuralBackground";
 import { useNavbar } from "./hooks/useNavbar";
@@ -7,14 +6,19 @@ import { useFadeIn } from "./hooks/useFadeIn";
 import { useContactForm } from "./hooks/useContactForm";
 import Image from "next/image";
 import LogoLoop from './LogoLoop';
-import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiHtml5, SiLaravel } from 'react-icons/si';
+import {
+  SiReact,
+  SiNextdotjs,
+  SiTypescript,
+  SiTailwindcss,
+  SiHtml5,
+  SiLaravel
+} from 'react-icons/si';
 import { useRef } from 'react';
 import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
-
 
 const techLogos = [
   { node: <SiReact />, title: "React", href: "https://react.dev" },
@@ -25,10 +29,9 @@ const techLogos = [
   { node: <SiLaravel />, title: "Laravel", href: "https://laravel.com" },
 ];
 
-
 export default function PortfolioClient() {
   const container = useRef<HTMLDivElement | null>(null);
-  
+
   useNeuralBackground();
   useNavbar();
   useFadeIn();
@@ -60,7 +63,7 @@ export default function PortfolioClient() {
             </ul>
           </div>
         </div>
-      </nav>        
+      </nav>       
       <section id="home" className="hero">
           <div className="hero-content">
               <h1 className="glitch" data-text="JOVANKA WILYAM">JOVANKA WILYAM</h1>
@@ -247,17 +250,17 @@ export default function PortfolioClient() {
       <section id="skills">
         <h2 className="section-title">SKILLS</h2>
       </section>
-      <div style={{ height: '200px', position: 'relative', overflow: 'hidden'}}>
-            <LogoLoop
-              logos={techLogos}
-              speed={100}
-              direction="left"
-              logoHeight={60}
-              gap={60}
-              hoverSpeed={0}
-              scaleOnHover
-              ariaLabel="Technology partners"
-            />
+      <div style={{ height: '200px', position: 'relative', overflow: 'hidden' }}>
+        <LogoLoop
+          logos={techLogos}
+          speed={100}
+          direction="left"
+          logoHeight={60}
+          gap={60}
+          hoverSpeed={0}
+          scaleOnHover
+          ariaLabel="Technology partners"
+        />
       </div>
 
       <section id="contact" className="fade-in">
