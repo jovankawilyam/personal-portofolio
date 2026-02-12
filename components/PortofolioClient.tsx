@@ -5,29 +5,13 @@ import { useNavbar } from "./hooks/useNavbar";
 import { useFadeIn } from "./hooks/useFadeIn";
 import { useContactForm } from "./hooks/useContactForm";
 import Image from "next/image";
-import LogoLoop from './LogoLoop';
-import {
-  SiReact,
-  SiNextdotjs,
-  SiTypescript,
-  SiTailwindcss,
-  SiHtml5,
-  SiLaravel
-} from 'react-icons/si';
 import { useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const techLogos = [
-  { node: <SiReact />, title: "React", href: "https://react.dev" },
-  { node: <SiNextdotjs />, title: "Next.js", href: "https://nextjs.org" },
-  { node: <SiTypescript />, title: "TypeScript", href: "https://www.typescriptlang.org" },
-  { node: <SiTailwindcss />, title: "Tailwind CSS", href: "https://tailwindcss.com" },
-  { node: <SiHtml5 />, title: "HTML5", href: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
-  { node: <SiLaravel />, title: "Laravel", href: "https://laravel.com" },
-];
+
 
 export default function PortfolioClient() {
   const container = useRef<HTMLDivElement | null>(null);
@@ -90,7 +74,8 @@ export default function PortfolioClient() {
                   <div className="profile-img-wrapper">
                       <div className="profile-img">
           <span>
-            <video className="image" autoPlay loop playsInline controls ><source src="profile-video.mp4" type="video/mp4" /></video>
+            <Image src="/image/profile.png" alt="Profile Jovanka" width={300} height={300} className="rounded-xl"/>
+            {/* <video className="image" autoPlay loop playsInline controls ><source src="profile-video.mp4" type="video/mp4" /></video> */}
             </span>
                       </div>
                   </div>
@@ -164,15 +149,25 @@ export default function PortfolioClient() {
       <section id="projects" className="fade-in">
           <h2 className="section-title">PROJECTS</h2>
 
-                <a href="https://hand-tracking-beige.vercel.app" target="_blank" className="project-link">
+      <a href="https://www.instagram.com/litbangku_id?igsh=ZXI1ejI1Mmo3dXp1" target="_blank" className="project-link">
         <div className="glass-card project-card">
-          <h3 style={{color: 'var(--primary)'}}>Jual Beli Akun PUBGM</h3>
+          <h3 style={{color: 'var(--secondary)'}}>Litbangku</h3>
+          <p style={{color: 'var(--text-secondary)'}}>
+      Litbangku ( Literasi Bangun Keuangan ) is a literacy research and development program initiated to improve reading culture and educational impact in the community. 
+      The program focuses on research-based strategies, literacy mapping, and community empowerment through innovative and measurable approaches.</p>
+        </div>
+      </a>
+
+
+                {/* <a href="blank" target="_blank" className="project-link"> */}
+        <div className="glass-card project-card">
+          <h3 style={{color: 'var(--accent)'}}>Jual Beli Akun PUBGM</h3>
           <p style={{color: 'var(--text-secondary)'}}>
           A web-based marketplace platform designed for buying and selling PUBG Mobile accounts. 
           The website features user authentication, account listings with detailed information 
           (rank, skins, level, and price), search & filtering system, and a responsive user-friendly interface.</p>
         </div>
-      </a>
+      {/* </a> */}
 
 
         <a href="https://hand-tracking-beige.vercel.app" target="_blank" className="project-link">
@@ -200,6 +195,8 @@ export default function PortfolioClient() {
                   </div>
                     </a>
 
+
+
                   <a href="https://pendaftaransysfornation.vercel.app/" target="_blank" className="project-link">       
         <div className="glass-card project-card">
           <h3 style={{color: 'var(--primary)'}}>pendaftaran</h3>
@@ -210,9 +207,11 @@ export default function PortfolioClient() {
         </div>
       </a>
 
+
+
       <a href="https://photobooth-vintage.vercel.app/" target="_blank" className="project-link">
       <div className="glass-card project-card">
-          <h3 style={{color: 'var(--primary)'}}>Photoboth Vintage</h3>
+          <h3 style={{color: 'var(--secondary)'}}>Photoboth Vintage</h3>
           <p style={{color: 'var(--text-secondary)'}}>
             Vintage Photobooth offers a classic photo experience inspired by retro aesthetics and old newspaper styles.
             Capture timeless moments with elegant frames that bring nostalgic charm to every shot.
@@ -222,7 +221,7 @@ export default function PortfolioClient() {
 
       <a href="https://voting-pemira2025.vercel.app/" target="_blank" className="project-link">
         <div className="glass-card project-card">
-          <h3 style={{color: 'var(--secondary)'}}>Voting Pemira 2025</h3>
+          <h3 style={{color: 'var(--accent)'}}>Voting Pemira 2025</h3>
           <p style={{color: 'var(--text-secondary)'}}>
             PEMIRA 2025 Voting is a digital platform for transparent, fair, and secure student elections.
             Empowering every vote to shape the future of student leadership.
@@ -317,7 +316,9 @@ export default function PortfolioClient() {
                   <ul>
                       <li><a href="#home">Home</a></li>
                       <li><a href="#about">About</a></li>
+                      <li><a href="#experience">Experience</a></li>
                       <li><a href="#projects">Projects</a></li>
+                      <li><a href="#achievements">Achievements</a></li>
                       <li><a href="#skills">Skills</a></li>
                       <li><a href="#contact">Contact</a></li>
                   </ul>
@@ -327,7 +328,9 @@ export default function PortfolioClient() {
                   <h3>Services</h3>
                   <ul>
                       <li><a href="#">Web Design</a></li>
+                      <li><a href="#">UI/UX</a></li>
                       <li><a href="#">Frontend Development</a></li>
+                      <li><a href="#">Backend Development</a></li>
                       <li><a href="#">Data Analytics</a></li>
                       <li><a href="#">IT Support</a></li>
                   </ul>

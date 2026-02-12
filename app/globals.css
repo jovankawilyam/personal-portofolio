@@ -612,14 +612,6 @@
         }
 
         /* Skills */
-        /* ==== SKILLS (Progress Bar Version) ==== */
-.skills-list {
-  max-width: 700px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
 
 .skill-bar {
   display: flex;
@@ -1210,13 +1202,6 @@
   width: 100%;
 }
 
-.skills-list {
-  display: flex;
-  gap: 60px;
-  width: max-content;
-  animation: scrollSkills 3s linear infinite;
-}
-
 .skill-bar {
   flex-shrink: 0;
 }
@@ -1242,7 +1227,7 @@
   display: flex !important;
   flex-direction: row !important;
   align-items: center;
-  gap: 50px;
+  gap: 100px;
   width: max-content;
 }
 
@@ -1269,7 +1254,7 @@
   align-items: center;
   gap: 60px;
   width: max-content;
-  animation: marquee 7s linear infinite;
+  animation: marquee 9s linear infinite;
 }
 
 /* setiap item */
@@ -1304,7 +1289,7 @@ html {
   display: flex;
   gap: 16px;
   width: max-content;
-  animation: scroll 20s linear infinite;
+  animation: scroll 10s linear infinite;
 }
 
 .skill-bar {
