@@ -130,7 +130,7 @@ export default function PortfolioClient() {
           <a href="https://www.instagram.com/p/DHYEELXx9pc/?igsh=emt5Z2kzdDI4bTV2">
           <h3 style={{color: 'var(--primary)'}}>Head of Human Resource Development</h3>
           <p style={{color: 'var(--text-secondary)'}}>
-            <strong>Himpunan Mahasiswa Sistem Informasi (2025 – Sekarang)</strong><br/>
+            <strong>Himpunan Mahasiswa Sistem Informasi (2025)</strong><br/>
             Pemberdayaan Sumber Daya Manusia (PSDM) is the driving force in empowering student and community resources, 
             which includes the student affairs division and the community division, so that skilled students and communities are created.
           </p></a>
