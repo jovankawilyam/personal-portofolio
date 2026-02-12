@@ -251,16 +251,7 @@ export default function PortfolioClient() {
         <h2 className="section-title">SKILLS</h2>
       </section>
       <div style={{ height: '200px', position: 'relative', overflow: 'hidden' }}>
-        <LogoLoop
-          logos={techLogos}
-          speed={100}
-          direction="left"
-          logoHeight={60}
-          gap={60}
-          hoverSpeed={0}
-          scaleOnHover
-          ariaLabel="Technology partners"
-        />
+       
       </div>
 
       <section id="contact" className="fade-in">
