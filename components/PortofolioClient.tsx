@@ -8,6 +8,8 @@ import Image from "next/image";
 import { useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Script from "next/script";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -22,6 +24,8 @@ export default function PortfolioClient() {
   useContactForm();
 
   return (
+    
+    
     <>
       <canvas id="neural-bg"></canvas>
 

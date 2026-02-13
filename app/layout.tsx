@@ -1,5 +1,5 @@
 import "./globals.css";
-
+import Script from "next/script";
 
 export const metadata = {
   title: "Portfolio Jovanka",
@@ -17,6 +17,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Script
+        src="https://www.gogletagmanager.com/gtag/js?id=G-ZWXX4977KH"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZWXX4977KH');
+        `}
+      </Script>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
