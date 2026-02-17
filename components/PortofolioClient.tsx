@@ -78,7 +78,7 @@ export default function PortfolioClient() {
                   <div className="profile-img-wrapper">
                       <div className="profile-img">
           <span>
-            <Image src="/image/profile.png" alt="Profile Jovanka" width={300} height={300} className="rounded-xl"/>
+            <Image src="/image/profile.png" alt="Profile Jovanka" width={300} height={500} className="rounded-xl"/>
             {/* <video className="image" autoPlay loop playsInline controls ><source src="profile-video.mp4" type="video/mp4" /></video> */}
             </span>
                       </div>
@@ -100,11 +100,11 @@ export default function PortfolioClient() {
                   <p>
                       I love taking on challenges that help me grow — whether it&apos;s solving data-driven problems, creating user-friendly interfaces, or developing community projects that make an impact.
                   </p>
-                  <a href="/CV_Jovanka-Wilyam.pdf" download="CV (Curriculum Vitae)_Jovanka Wilyam_Kab.Bogor.pdf" className="neural-btn" >Download CV </a>
+                  <a href="/CV_Jovanka Wilyam_IBI Kesatuan.pdf" download="CV (Curriculum Vitae)_Jovanka Wilyam_Kab.Bogor.pdf" className="neural-btn" >Download CV </a>
 
                   <div className="about-stats">
                       <div className="stat-card">
-                          <div className="stat-number">6+</div>
+                          <div className="stat-number">8+</div>
                           <div className="stat-label">Projects</div>
                       </div>
                       <div className="stat-card">
@@ -128,7 +128,7 @@ export default function PortfolioClient() {
           <a href="https://www.instagram.com/p/DHYEELXx9pc/?igsh=emt5Z2kzdDI4bTV2">
           <h3 style={{color: 'var(--primary)'}}>Head of Human Resource Development</h3>
           <p style={{color: 'var(--text-secondary)'}}>
-            <strong>Himpunan Mahasiswa Sistem Informasi (2025)</strong><br/>
+            <strong>Himpunan Mahasiswa Sistem Informasi (2025 - 2026)</strong><br/>
             Pemberdayaan Sumber Daya Manusia (PSDM) is the driving force in empowering student and community resources, 
             which includes the student affairs division and the community division, so that skilled students and communities are created.
           </p></a>
@@ -167,9 +167,8 @@ export default function PortfolioClient() {
         <div className="glass-card project-card">
           <h3 style={{color: 'var(--accent)'}}>Jual Beli Akun PUBGM</h3>
           <p style={{color: 'var(--text-secondary)'}}>
-          A web-based marketplace platform designed for buying and selling PUBG Mobile accounts. 
-          The website features user authentication, account listings with detailed information 
-          (rank, skins, level, and price), search & filtering system, and a responsive user-friendly interface.</p>
+          Developed a full-stack web-based marketplace platform using Laravel, implementing complete CRUD functionality,
+           user authentication, dynamic search & filtering system, and responsive UI design.</p>
         </div>
       {/* </a> */}
 
@@ -283,6 +282,7 @@ export default function PortfolioClient() {
                 </div><div className="skill-bar"><span className="skill-name">Laravel</span>
                   </div><div className="skill-bar"><span className="skill-name">Power BI</span>
                     </div><div className="skill-bar"><span className="skill-name">Tableau</span>
+                    </div><div className="skill-bar"><span className="skill-name">Rest API</span>
                       </div><div className="skill-bar"><span className="skill-name">HTML</span>
                         </div><div className="skill-bar"><span className="skill-name">CSS</span>
                           </div><div className="skill-bar"><span className="skill-name">JavaScript</span>
@@ -290,7 +290,9 @@ export default function PortfolioClient() {
                               </div><div className="skill-bar"><span className="skill-name">React</span>
                                 </div><div className="skill-bar"><span className="skill-name">Laravel</span>
                                   </div><div className="skill-bar"><span className="skill-name">Power BI</span>
-                                    </div><div className="skill-bar"><span className="skill-name">Tableau</span></div></div></section>
+                                    </div><div className="skill-bar"><span className="skill-name">Tableau</span>
+                                      </div><div className="skill-bar"><span className="skill-name">RestAPI</span>
+                                    </div></div></section>
 
       {/* CONTACT SECTION */}
 
