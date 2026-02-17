@@ -2,11 +2,11 @@ import "./globals.css";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Portfolio Jovanka",
+  title: "Jovanka Wilyam | Portfolio",
   description:
     "Portfolio of Jovanka Wilyam Muzaki — Frontend Developer, Data Analyst, and Creative Leader from IBIK Bogor.",
   icons: {
-    icon: "/image/logo.png",
+    icon: "/image/logoo.png",
   },
 };
 
