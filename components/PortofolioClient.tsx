@@ -265,7 +265,7 @@ export default function PortfolioClient() {
             <li className="achievement-item">🥈 Juara 2 Palagan Open II Taekwondo – 2020</li>
             <li className="achievement-item">🥉 Juara 3 Online Indonesia International Biho Championship – 2021</li>
             <li className="achievement-item">🥇 Juara 1 Speed Kicking – 2021</li>
-            <li className="achievement-item">🥈 Juara  Bahurupi Cup 3 – 2022</li>
+            <li className="achievement-item">🥈 Juara 2 Kapolri Cup 3 – 2022</li>
           </ul>
         </div>
       </section>
